@@ -1,0 +1,99 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  margin: 0px 150px;
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns: auto 70%;
+}
+
+.header-top-left-logo {
+  max-width: 100px;
+}
+
+.header-bottom-menu ul {
+  height: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.header-bottom-menu {
+  right: 0px;
+  padding: 5px;
+}
+
+.header-bottom-menu a {
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.main-share-me {
+  text-align: center;
+  font-size: 25px;
+}
+
+.maim-share-me-icon {
+  font-size: 25px;
+  text-align: center;
+}
+
+.main-comment {
+  font-size: 25px;
+}
+
+.main-comment-avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.main-comment-item {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.main-comment-input {
+  width: 91%;
+  border: 1px solid black;
+  height: 100px;
+  resize: none;
+}
+
+.main-comment-input-icon {
+  position: absolute;
+  transform: translate(-150%, 15%);
+}
+
+.main-comment-input-icon:hover {
+  color: #62c6f8;
+}
+
+.main-comment-item p {
+  min-height: 50px;
+}
+
+.main-comment-minus-icon {
+  position: absolute;
+  right: 15px;
+  top: -0px;
+}
+
+.main-comment-minus-icon:hover {
+  color: #62c6f8;
+}
